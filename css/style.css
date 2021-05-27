@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: rgba(148, 225, 245, 0.2) url("../img/bg-hero-desktop.svg") ;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4vh;
+}
+
+.navbar img{
+    margin-top: 1vh;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+    font-weight: 600;
+}
+
+.btnTry{
+    padding: 1.5vh 5vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.ctnMSG{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8vh;
+}
+
+.ctnMSG p{
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+
+.headerMSG{
+    max-width: 45%;
+    padding-right: 4vh;
+    align-items: center;
+    vertical-align: center;
+}
+
+.btnGetStarted{
+    position: relative;
+    padding: 1.5vh 3vw;
+    background-color: rgb(255, 182, 233);
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.headerMSG h1{
+    font-size: 4vh;
+    font-weight: 600;
+}
+
+.headerIMG img{
+    max-width: 100%;
+}
