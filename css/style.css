@@ -37,7 +37,7 @@ header{
     padding: 1.5vh 5vw;
     background-color: rgb(255, 255, 255);
     border-radius: 50px;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
 .ctnMSG{
@@ -65,7 +65,7 @@ header{
     padding: 1.5vh 3vw;
     background-color: rgb(255, 182, 233);
     border-radius: 50px;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
     text-decoration: none;
     color: rgb(255, 255, 255);
     align-items: center;
@@ -124,9 +124,14 @@ header{
     position: relative;
     display: flex;
     margin-top: 14vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    max-width: 600px;
     border: 1px solid rgba(211, 211, 211, 0.2);
     border-radius: 10px;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
 
 .card{
@@ -134,4 +139,54 @@ header{
     flex: 1;
     flex-direction: column;
     align-items: center;
+    padding: 6vh 0 5vh 0;
+}
+
+.card a{
+    margin-top: 3vh;
+}
+
+footer{
+    background-color: #00252e;
+    margin-top: -10vh;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 1.5vh;
+    padding-top: 15vh;
+    padding-bottom: 7vh;
+    z-index: 0;
+}
+
+.contFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footerLogo{
+    filter: brightness(0) invert(1);
+    width: 150px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    max-width: 33.33%;
+}
+
+.contact i{
+    padding-top: 2vh;
+    margin-right: 1vh;
+}
+
+.usefulLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 33.33%;
 }
