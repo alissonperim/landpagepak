@@ -79,3 +79,43 @@ header{
 .headerIMG img{
     max-width: 100%;
 }
+
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardFlex{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(211, 211, 211, 0.2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3vh;
+}
+
+.cardMSG{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    padding: 0 5vw;
+}
+
+.cardMSG h2{
+    font-size: 3vh;
+    margin-bottom: 1.5vh;
+}
+
+.cardMSG p{
+    color: rgb(160, 160, 160);
+}
+
+.cardFlex:first-child{
+    margin-top: 10vh;
+}
+
+.cardIMG img{
+    max-width: 500px;
+    padding: 5vh 2vw;
+}
