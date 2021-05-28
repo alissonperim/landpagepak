@@ -45,7 +45,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 8vh;
+    margin-top: 15vh;
 }
 
 .ctnMSG p{
@@ -72,7 +72,7 @@ header{
 }
 
 .headerMSG h1{
-    font-size: 4vh;
+    font-size: 3em;
     font-weight: 600;
 }
 
@@ -103,7 +103,7 @@ header{
 }
 
 .cardMSG h2{
-    font-size: 3vh;
+    font-size: 2em;
     margin-bottom: 1.5vh;
 }
 
@@ -152,15 +152,66 @@ footer{
     display: flex;
     justify-content: space-around;
     color: #fff;
-    font-size: 1.5vh;
+    font-size: 0.85em;
     padding-top: 15vh;
     padding-bottom: 7vh;
     z-index: 0;
 }
 
+footer .logo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footerCol {
+    width: 33.33%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footerItem {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin-bottom: 10px;
+}
+
+.alignLeft{
+    margin-left: 25%;
+}
+
+.footerItem i{
+    font-size: 30px;
+}
+
+.footerItem a{
+    margin-left: 10vh;
+}
+
+.half a:hover{
+    text-decoration: underline;
+}
+
+.footerItem i:hover{
+    color: rgb(255, 182, 233);
+}
+
+.footerItem p {
+    width: calc(100% - 30px);
+    margin-left: 1.5vh;
+}
+
+.half {
+    width: 50%;
+}
+
 .contFlex{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 footer a{
@@ -173,20 +224,7 @@ footer a{
     width: 150px;
 }
 
-.contact{
-    display: flex;
-    flex-direction: column;
-    max-width: 33.33%;
-}
-
-.contact i{
-    padding-top: 2vh;
-    margin-right: 1vh;
-}
-
-.usefulLinks{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    max-width: 33.33%;
+.copy{
+    padding-left: 6vw;
+    margin-top: 15%;
 }
